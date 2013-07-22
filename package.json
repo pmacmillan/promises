@@ -9,7 +9,6 @@
     "test": "test"
   },
   "dependencies": {
-    "q": "~0.9.6"
   },
   "devDependencies": {
     "mocha": "~1.12.0",
