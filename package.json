@@ -1,0 +1,24 @@
+{
+  "name": "promises",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a minimal learning promises library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "q": "~0.9.6"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec",
+    "coverage": "rm -rf lib-cov && jscoverage lib lib-cov && PLIBCOV=1 node node_modules/.bin/mocha -R html-cov > coverage.html"
+  },
+  "author": "Peter MacMillan <phm@phm.io>",
+  "license": "MIT"
+}
